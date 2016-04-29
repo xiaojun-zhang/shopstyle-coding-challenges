@@ -29,8 +29,8 @@ To get started:
   ```bash
   ./gradlew clean compileJava
   ```
-
 If you get an error when running this, check that the JDK is installed, and that the JAVA_HOME environment variable is set correctly.
+
 3. 'Clean' and 'compileJava' are *Gradle tasks*. The Gradle build process is composed of several tasks; Gradle knows the correct ordering of these tasks, so if you run one of them, Gradle will automatically execute all other tasks upon which your target task depends.
 4. The `compileJava` task should have completed successfully. If it did, you'll see a notice that says BUILD SUCCESSFUL.
 5. Now, let's run the unit tests for the stack implementation. You can do so by running `./gradlew test`
